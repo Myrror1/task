@@ -1,0 +1,65 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.sedan {
+    background-color: orange;
+    padding:2em ;
+}
+.suv {
+    background-color: rgb(49, 99, 96);
+    padding: 2em ;
+}
+.lux {
+    background-color: rgb(14, 66, 59);
+    padding: 2em ;
+}
+button {
+    padding: 10px;
+    border-radius: 20px;
+    width: 100%;
+    cursor: pointer;
+}
+main {
+    width: 50%;
+    margin: auto;
+    height: 90vh;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+body {
+    background-color: rgb(90, 87, 87);
+}
+.div {
+    display: flex;
+    flex-direction: row;
+}
+p{
+    font-size: small;
+    padding: 20px 1px 50px;
+    color: white;
+    
+}
+h3 {
+    padding-top: 20px;
+    color: white;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0%     ;
+    overflow: hidden;
+    background-color: #333333;
+}
+li {
+    float: left;
+}
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+}

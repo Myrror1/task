@@ -1,0 +1,70 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body {
+    background-color: darkslategray;
+    place-items: center;
+    display: block;
+    
+
+}
+main {
+    display: grid;
+    grid-template-areas: 
+    'fir fir fir fir sec sec'
+    'thi thi for for for for'
+    'thi thi fif fif fif fif';
+    gap: 7px;
+  
+    width: 50%;
+    margin: auto;
+    height: 80vh;
+    margin-top: 40px;
+
+
+}
+.first {
+     background-color: coral;
+     grid-area: fir;
+}
+.second {
+    background-color: orange;
+    grid-area: sec;
+}
+.third {
+    background-color: green;
+    grid-area: thi;
+}
+.fourth {
+    background-color: lightskyblue;
+    grid-area: for;
+
+}
+.fifth {
+    background-color: lightskyblue;
+    grid-area: fif;
+}
+main div{
+    padding: 2em;
+    text-align: center;
+    
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0%     ;
+    overflow: hidden;
+    background-color: #333333;
+}
+li {
+    float: left;
+}
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+}
+
